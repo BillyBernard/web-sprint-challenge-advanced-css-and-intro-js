@@ -250,7 +250,8 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array) {
   /*Your Code Here*/
-  return array.split(names[i]["1900 - 2000"]);
+  const newArray = array.split(["1900 - 2000"]);
+  return newArray;
 }
 
 
@@ -267,12 +268,8 @@ For example, if removeArtist is invoked with the artists array and the number 0,
 
 function removeArtist(array, index) {
   /*Your Code Here*/
-  for(let i = 0; i < array.length; i++){
-    if(array[i] === index){
-      array.splice(i, 1);
-    }
-  }
-  return array[i];
+  array.splice({array, index});
+  return array[index];
 }
 
 
@@ -312,7 +309,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(array) {
   /*Your Code Here*/
-  return array
+  
 }
 
 

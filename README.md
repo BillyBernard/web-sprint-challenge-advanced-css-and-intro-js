@@ -40,7 +40,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 5. How do you access a key inside of an object inside of an array?
 
--There are two ways to access keys within an object inside or an array. The first is dot notation, using object.key. The second is bracket notation where the key must be in quotes and is used specifically if your keys are strings that have spaces, using object['key'].
+-A array must be looped into to gain access to the object. There are two ways to access keys within an object inside of an array. The first is dot notation, using object.key. The second is bracket notation where the key must be in quotes and is used specifically if your keys are strings that have spaces, using object['key'].
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

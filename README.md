@@ -23,10 +23,24 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+-Acessibility on the web is the practice of creating a website that is useable by anyone. This includes people with disabilities and people without disablities. Acessibility on a website should cover those with bad internet, use of mobile devices, and usability depending on the users needs. Having scalable units is extremely important for people who nees to be able to see fonts larger than the default settings. Accessibilty is not only important because it helps users but it is also the law and should be followed.  
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+- Three things that can ensure a website is accessable are the use of media quieres to create mobile first or desktop first design, using scalable units in order to make text easier to read for those who would need it, and proper use of HTML tags in a websites code so that screen readers can accurately tell a user what content they are viewing on a given page.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+-A variable is a named place that can have data stored within. They can be declared three different ways in JavaScript which are var, let and const. Use const until it is no longer possible, then move to using let but never use var.
+
 4. What is the purpose of using functions in code?
+
+-The purpose of a function is to protect a block of code until they are invoked or called but they are also designed to perform given tasks.
+
 5. How do you access a key inside of an object inside of an array?
+
+-There are two ways to access keys within an object inside or an array. The first is dot notation, using object.key. The second is bracket notation where the key must be in quotes and is used specifically if your keys are strings that have spaces, using object['key'].
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

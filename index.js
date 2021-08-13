@@ -268,12 +268,13 @@ For example, if removeArtist is invoked with the artists array and the number 0,
 
 function removeArtist(array, index) {
   /*Your Code Here*/
-  array.splice({array, index});
-  return array[index];
-}
-
-
-
+    for (let i = 0; i < array.length; i++){
+        if (i === index){
+          array.splice(index, 1)
+        }
+    }
+      return array.length;
+  }
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -309,6 +310,9 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(array) {
   /*Your Code Here*/
+  // array.filter(lotsOfArt(i){
+  //   return i > 100;
+  // });
   
 }
 

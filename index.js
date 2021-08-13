@@ -250,11 +250,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array) {
   /*Your Code Here*/
-  const newArray = array.split(["1900 - 2000"]);
-  return newArray;
 }
-
-
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -310,12 +306,14 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(array) {
   /*Your Code Here*/
-  // array.filter(lotsOfArt(i){
-  //   return i > 100;
-  // });
-  
+  const artistNameArray = [] 
+  array.filter( i => {
+      if(i.paintings >= 100 ){
+        return artistNameArray.push(i.name)
+      }
+    }) 
+  return artistNameArray
 }
-
 
 /* ***** END OF TASKS ***** */
 

@@ -24,7 +24,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 1. How would you describe acessibility on the web to someone new to programming?
 
--Acessibility on the web is the practice of creating a website that is useable by anyone. This includes people with disabilities and people without disablities. Acessibility on a website should cover those with bad internet, use of mobile devices, and usability depending on the users needs. Having scalable units is extremely important for people who nees to be able to see fonts larger than the default settings. Accessibilty is not only important because it helps users but it is also the law and should be followed.  
+-Acessibility on the web is the practice of creating a website that is useable by anyone. This includes people with disabilities and people without disablities. Acessibility on a website should cover those with bad internet, mobile devices, and usability depending on the users needs. Having scalable units is extremely important for people who need to be able to see fonts larger than the default settings. Accessibilty is not only important because it helps users but it is also the law and should be followed.  
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
 
